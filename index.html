@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Password Generator</title>
+</head>
+
+<body>
+  <div class="pwd pwd__bg">
+    <div class="pwd__cont">
+      <h1 class="pwd__heading">Random Password Generator</h1>
+      <div class="pwd__inputCont">
+        <input class="pwd__input" type="text" readonly />
+        <button class="pwd__copy relative">
+          <img class="pwd__copyIcon" width="20" src="/copy.png" alt="copy">
+          <div class="pwd__tooltip">
+            <span>Copied</span>
+          </div>
+          <span class="pwd__tip"></span>
+        </button>
+      </div>
+      <button class="pwd__btn">Generate Password </button>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
