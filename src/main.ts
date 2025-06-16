@@ -28,15 +28,3 @@ CopyPassword?.addEventListener("click", () => {
     document.execCommand("copy");
   }
 });
-
-// CopyPassword?.addEventListener("click", () => {
-//   if ((PasswordInput as HTMLInputElement).value) {
-//   (PasswordInput as HTMLInputElement).select(); 
-
-//     navigator.clipboard.writeText((PasswordInput as HTMLInputElement).value).then(() => {
-//       alert("Password copied to clipboard!");
-//     }).catch((error) => {
-//       console.error("Error copying password: ", error);
-//     });
-//   }
-// });
